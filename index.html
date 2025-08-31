@@ -1116,8 +1116,11 @@
             </div>
             <div class="portfolio-grid">
                 <div class="portfolio-item" data-category="data">
-                    <img src="https://i.postimg.cc/WbtcQHTk/Screenshot-148.png" alt="Project" class="portfolio-img">
-                    <div class="portfolio-overlay">
+                  <picture>
+                    <source srcset="https://i.postimg.cc/WbtcQHTk/Screenshot-148.webp" type="image/webp">
+                    <img src="https://i.postimg.cc/WbtcQHTk/Screenshot-148.png" alt="Project" class="portfolio-img" loading="lazy"  width="640" height="360">
+                  </picture>
+                   <div class="portfolio-overlay">
                         <h3>Uber Trip Analysis</h3>
                         <p>Visualized key insights from Uber trip data to identify trends, peak hours, and location-based demand.</p>
                     </div>
@@ -1533,5 +1536,6 @@
     </script> 
 </body>
 </html>
+
 
 
