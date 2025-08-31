@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://aindrila61.github.io/aindrila-das/</loc>
+    <lastmod>2025-08-31</lastmod>
+    <priority>1.0</priority>
+  </url>
 
-
-<url>
-  <loc>https://aindrila61.github.io/aindrila-das/</loc>
-  <lastmod>2025-08-28T18:04:33+00:00</lastmod>
-</url>
-
+  <!-- Social Profiles -->
+  <url>
+    <loc>https://www.linkedin.com/in/aindrila-das-business-analytics-data-science</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://instagram.com/im_aindriladas</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://facebook.com/aindrila.das.754</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://aindriladas.substack.com/</loc>
+    <priority>0.7</priority>
+  </url>
 
 </urlset>
