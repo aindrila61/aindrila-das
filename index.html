@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aindrila Das | Data Science & Business Analytics</title>
-    <meta name="description" content="Portfolio of Aindrila Das – Computer Science Engineer and aspiring MBA in Business Analytics. Showcasing projects, skills, and achievements." />
-     <!-- ✅ Canonical URL -->
-  <link rel="canonical" href="https://aindrila61.github.io/aindrila-das/" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aindrila Das | Data Science & Business Analytics</title>
 
-  <!-- ✅ Open Graph (for Facebook, LinkedIn, WhatsApp previews) -->
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Aindrila Das | Portfolio" />
-  <meta property="og:description" content="Portfolio of Aindrila Das – showcasing skills, projects, and career journey." />
-  <meta property="og:url" content="https://aindrila61.github.io/aindrila-das/" />
-  <meta property="og:image" content="https://aindrila61.github.io/aindrila-das/images/preview.png" />
-  <!-- replace preview.png with your profile/portfolio image -->
+  <!-- SEO Meta -->
+  <meta name="description" content="Official portfolio of Aindrila Das, Data Analyst and Business Analytics Specialist. MBA in Business Analytics & Data Science (BIBS), B.Tech in Computer Science (MSIT). Former Junior Software Engineer at Brigosha Technologies. Skilled in data science, business strategy, and analytics projects.">
+  <meta name="keywords" content="Aindrila Das, Data Analyst, Data Science, Business Analytics, MBA, MSIT, Brigosha Technologies, Machine Learning, Python, Tableau, Power BI, Substack, Kolkata">
 
-  <!-- ✅ Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Aindrila Das | Portfolio" />
-  <meta name="twitter:description" content="Explore the projects and skills of Aindrila Das – CSE graduate and aspiring MBA in Business Analytics." />
-  <meta name="twitter:image" content="https://aindrila61.github.io/aindrila-das/images/preview.png" />
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Aindrila Das | Data Science & Business Analytics">
+  <meta property="og:description" content="Portfolio of Aindrila Das, Data Analyst skilled in Business Analytics, Data Science, and Operational Efficiency. Connect via LinkedIn, Instagram, Facebook, and Substack.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aindrila61.github.io/aindrila-das/">
+  <meta property="og:image" content="https://i.postimg.cc/j230DzQ2/12.png">
 
-  <!-- ✅ Schema.org Person Markup -->
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Aindrila Das",
+    "jobTitle": "Data Analyst",
     "url": "https://aindrila61.github.io/aindrila-das/",
     "sameAs": [
-      "https://www.linkedin.com/in/aindrila-das",
-      "https://github.com/aindrila61",
-      "https://www.instagram.com/yourusername",
-      "https://www.facebook.com/yourusername"
-    ]
+      "https://www.linkedin.com/in/aindrila-das-business-analytics-data-science",
+      "https://instagram.com/im_aindriladas",
+      "https://facebook.com/aindrila.das.754",
+      "https://aindriladas.substack.com/"
+    ],
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Meghnad Saha Institute of Technology (MSIT)", "sameAs": "https://msit.edu.in/" },
+      { "@type": "CollegeOrUniversity", "name": "BIBS - Bengal Institute of Business Studies", "sameAs": "https://www.bibs.co.in/" }
+    ],
+    "worksFor": { "@type": "Organization", "name": "Brigosha Technologies", "sameAs": "https://www.brigosha.com/" },
+    "knowsAbout": ["Business Analytics","Data Science","Machine Learning","Operational Efficiency","Python","SQL","Tableau","Power BI","Logistics Analytics"]
   }
   </script>
-</head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&family=Raleway:wght@800;900&display=swap" rel="stylesheet">
-    <style>
-         :root {
+
+  <!-- Fonts & CSS -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&family=Raleway:wght@800;900&display=swap" rel="stylesheet">
+
+  <!-- Your existing CSS -->
+  <style>
+    :root {
             --primary: #007BFF;
             --secondary: #0056b3;
             --accent: #00A8FF;
@@ -956,13 +961,13 @@
                 height: 240px;
             }
         }
-    </style>
+  </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">Aindrila<span>Das</span></a>
+            <a href="#" class="logo" aria-label="Aindrila Das Portfolio">Aindrila<span>Das</span></a>
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
@@ -970,7 +975,7 @@
                 <li class="nav-item"><a href="#portfolio" class="nav-link">Projects</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <button class="mobile-menu-btn">
+            <button class="mobile-menu-btn" aria-label="Menu">
                 <i class="fas fa-bars"></i>
             </button>
         </div>
@@ -1001,42 +1006,32 @@
                 </div>
                 
                 <div class="about-details">
-                    <!-- Image on the left -->
                     <div class="about-img">
                         <div class="glow"></div>
-                        <img src="https://i.postimg.cc/j230DzQ2/12.png" alt="Aindrila Das" class="profile-photo">
+                        <img src="https://i.postimg.cc/j230DzQ2/12.png" alt="Aindrila Das - Data Analyst" class="profile-photo">
                     </div>
                     
-                    <!-- Content on the right -->
                     <div class="about-text">
                         <h4>Professional Background</h4>
                         <p>I bring a diverse skill set that combines technical knowledge from my Computer Science background with business strategy insights gained through my MBA studies. My experience at Brigosha Technologies in Bangalore provided me with valuable exposure to automotive technologies and industry best practices.</p>
                         
                         <div class="about-points">
                             <div class="about-point">
-                                <div class="point-icon">
-                                    <i class="fas fa-graduation-cap"></i>
-                                </div>
+                                <div class="point-icon"><i class="fas fa-graduation-cap"></i></div>
                                 <div class="point-content">
                                     <h5>Business Analytics & Data Science</h5>
                                     <p>Currently advancing my expertise in data-driven decision making and business strategy.</p>
                                 </div>
                             </div>
-                            
                             <div class="about-point">
-                                <div class="point-icon">
-                                    <i class="fas fa-briefcase"></i>
-                                </div>
+                                <div class="point-icon"><i class="fas fa-briefcase"></i></div>
                                 <div class="point-content">
                                     <h5>Junior Software Engineer</h5>
                                     <p>Specialized in automotive technologies at Brigosha Technologies.</p>
                                 </div>
                             </div>
-                            
                             <div class="about-point">
-                                <div class="point-icon">
-                                    <i class="fas fa-laptop-code"></i>
-                                </div>
+                                <div class="point-icon"><i class="fas fa-laptop-code"></i></div>
                                 <div class="point-content">
                                     <h5>Computer Science Graduate</h5>
                                     <p>Specialized in data structures, algorithms, and database systems.</p>
@@ -1052,7 +1047,8 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section skills-section">
+    <!-- (Keep your full Skills, Portfolio, Contact, and Footer sections exactly as in your original file, just ensure each <img> has alt text and links/icons have aria-labels for accessibility) -->
+     <section id="skills" class="section skills-section">
         <div class="container">
             <div class="section-title">
                 <h2>My Expertise</h2>
@@ -1200,7 +1196,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <div>
-                        <h3>Location</h3>
+                        <h4>Location</h4>
                         <p>Kolkata, India</p>
                     </div>
                 </div>
@@ -1268,11 +1264,16 @@
                     <h3>Let's Stay Connected</h3>
                     <p>Stories, snapshots, and everything in between.</p>
                     <div class="social-links">
-                        <a href="https://github.com/aindrila61" target="_blank" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/aindrila61" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
                        <!-- <a href="https://twitter.com/shutter_swamped" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>-->
-                        <a href="https://instagram.com/im_aindriladas" target="_blank" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://facebook.com/aindrila.das.754" target="_blank" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://medium.com/@aindriladas61" target="_blank" class="social-link" aria-label="Medium"><i class="fab fa-medium-m"></i></a>
+                        <a href="https://instagram.com/im_aindriladas" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/aindrila.das.754" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://aindriladas.substack.com/" target="_blank" class="social-link" aria-label="Substack">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="15" height="15" fill="white">
+                             <path d="M512 64H0V0h512v64zm0 64H0v64h512v-64zm0 128H0v256l256-128 256 128V256z"/>
+                        </svg>
+                        </a>
+
                     </div>
                 </div>
                 <div class="footer-col">
@@ -1531,16 +1532,4 @@
         });
     </script> 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
