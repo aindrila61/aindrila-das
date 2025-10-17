@@ -1247,6 +1247,10 @@
     @media (max-width: 768px) {
   .hero {
     padding-top: 140px; /* ensures hero content stays below navbar */
+    height: auto;       /* let it expand instead of cutting photo */
+    min-height: 100vh;  /* still keeps full screen look */
+    display: flex;
+    align-items: center;
   }
 }
     @media (max-width: 1024px) {
@@ -2088,6 +2092,7 @@
     </script>
 </body>
 </html>
+
 
 
 
