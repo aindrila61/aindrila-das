@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="https://i.postimg.cc/j230DzQ2/12.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://i.postimg.cc/j230DzQ2/12.png">
   <link rel="apple-touch-icon" sizes="180x180" href="https://i.postimg.cc/j230DzQ2/12.png">
+  <!-- Preload hero image for faster Largest Contentful Paint -->
+ <link rel="preload" as="image" href="https://i.postimg.cc/rmhkRjLN/12.webp" fetchpriority="high">
 
   <!-- SEO Meta -->
 <meta name="description" content="Official portfolio of Aindrila Das, Data Analyst and Business Analytics Specialist. MBA in Business Analytics & Data Science, B.Tech in Computer Science.">
@@ -1454,7 +1456,7 @@
                 </div>
                 <div class="hero-image">
                     <div class="profile-container">
-                        <img src="https://i.postimg.cc/rmhkRjLN/12.webp" alt="Aindrila Das" class="profile-photo">
+                        <img src="https://i.postimg.cc/rmhkRjLN/12.webp" alt="Aindrila Das" class="profile-photo" loading="eager" fetchpriority="high" decoding="async"/>
                     </div>
                 </div>
             </div>
@@ -2121,6 +2123,7 @@
     </script>
 </body>
 </html>
+
 
 
 
